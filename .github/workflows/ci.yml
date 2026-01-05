@@ -7,7 +7,7 @@ on:
     branches: [ main ]
 
 jobs:
-  matrix-pip:
+  matrix1-pip:
     name: Train and Save the model
     runs-on: ubuntu-latest
     strategy:
